@@ -1,0 +1,139 @@
+<h1>
+
+    Q1. What are conditional statements? Explain conditional statements with syntax and examples.
+</h1>
+<p>
+<br>
+Conditional statements in JavaScript allow you to execute different code blocks based on whether a specified condition evaluates to true or false. The syntax for basic conditional statements in JavaScript includes:
+<br>
+<br>
+if statement:
+<br>
+<br>
+if (condition) {<br>
+    // code to be executed if the condition is true<br>
+}<br>
+<br>
+if-else statement:<br>
+<br>
+<br>
+
+
+if (condition) {<br>
+    // code to be executed if the condition is true<br>
+} else {<br>
+    // code to be executed if the condition is false<br>
+}<br>
+<br>
+if-else if-else statement:<br>
+<br>
+if (condition1) {<br>
+    // code to be executed if condition1 is true<br>
+} else if (condition2) {<br>
+    // code to be executed if condition2 is true<br>
+} else {<br>
+    // code to be executed if none of the conditions are true<br>
+}<br>
+
+</p>
+<h1>
+
+    Q2. Write a program that grades students based on their marks:
+</h1>
+<p>
+    <br><br>
+const marks = prompt("Enter the student's marks: ");<br>
+let grade;<br>
+<br><br>
+if (marks > 90) {<br>
+    grade = 'A';<br>
+} else if (marks >= 70 && marks <= 90) {<br>
+    grade = 'B';<br>
+} else if (marks >= 50 && marks < 70) {<br>
+    grade = 'C';<br>
+} else {<br>
+    grade = 'F';<br>
+}<br>
+<br>
+console.log(`The student's grade is: ${grade}`);<br>
+
+</p>
+<h1>
+
+    Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and examples.
+</h1>
+<p>
+    <br>
+Loops in JavaScript are used to repeatedly execute a block of code until a certain condition is met. They are essential for automating repetitive tasks. JavaScript has several types of loops:<br>
+<br>
+<br>
+for loop:
+<br>
+
+for (let i = 1; i <= 5; i++) {<br>
+    // code to be repeated<br>
+}<br>
+<br>
+while loop:<br>
+<br>
+
+    
+    let i = 1;<br>
+    while (i <= 5) {<br>
+        // code to be repeated<br>
+        i++;<br>
+    }<br>
+    <br>
+    do-while loop:<br>
+    <br>
+    
+    let i = 1;<br>
+    do {<br>
+        // code to be repeated<br>
+        i++;<br>
+    } while (i <= 5);<br>
+    <br>
+</p>
+<h1>
+
+    
+    Q4. Generate numbers between any 2 given numbers:
+    
+</h1>
+
+<p>
+    <br>
+    
+    const num1 = 10;<br>
+    const num2 = 25;<br>
+    <br>
+    for (let i = num1; i <= num2; i++) {<br>
+        console.log(i);<br>
+    }<br>
+    <br>
+</p>
+<hr>
+<h1>
+
+    Q5. Use the while loop to print numbers from 1 to 25 in ascending and descending order:
+</h1>
+
+
+<p>
+
+    // Ascending order<br>
+    <br>
+    let ascending = 1;<br>
+    while (ascending <= 25) {<br>
+        console.log(ascending);<br>
+        ascending++;<br>
+    }<br>
+    <br>
+    // Descending order<br>
+    let descending = 25;<br>
+    while (descending >= 1) {<br>
+        console.log(descending);<br>
+        descending--;<br>
+    }<br>
+    <br>
+</p>
